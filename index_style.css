@@ -1,0 +1,103 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(31, 31, 34);
+}
+
+.blockpage {
+  min-width: 480px;
+  background-color: white;
+  width: 90%;
+  margin: auto;
+}
+
+/* Coordonnées */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(50, 50, 170, 1);
+  color: white;
+  padding: 10px;
+}
+
+/* bloc photo + nom */
+.moi { 
+  display: flex;
+  width: 60%;
+}
+.photoprofil {
+  width: 130px;
+}
+.titre {
+  margin-left: 5px;
+}
+
+.coordonnees {
+  width: 40%;
+  text-align: right;
+  margin-top: 35px;
+}
+
+/* Accroche */
+
+.accroche {
+  margin: 20px 5% 20px 5%;
+}
+.qualites {
+  text-align: center;
+  margin: 10px;
+}
+.presentation {
+  text-align: justify;
+}
+
+/* Blocs principaux */
+
+.mainblocks {
+  display: flex;
+  margin: 1%;
+}
+
+h3 {
+  text-transform: uppercase;
+  text-decoration: underline;
+  color: rgba(50, 50, 170, 1);
+}
+
+.colonneleft {
+  width: 65%;
+}
+.colonneright {
+  width: 35%;
+}
+
+.categorie {
+  margin: 10px;
+  margin-bottom: 20px;
+}
+
+.experience {
+  margin: 10px 0 10px 0;
+}
+
+.experience ul {
+  margin-left: 10%;
+}
+
+.colonneskills {
+  display: flex;
+  justify-content: space-evenly;
+  height: 200px;
+}
+.skillz {
+  list-style-type: none;
+  margin-left: -50px;
+}
